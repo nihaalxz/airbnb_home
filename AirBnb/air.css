@@ -1,0 +1,184 @@
+*{
+    margin:5px;
+    font-family:"Montserrat", sans-serif;
+    font-weight:550;
+    font-size: 15px;
+}
+.header{
+    margin-left:55px;
+    margin-right:55px;
+}
+
+.top_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos{
+    width:100px;
+}
+.center{
+    margin-left:12%;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.stays_btn{
+    background: none;
+    border:none;
+    font-size: 18px;
+}
+.Exp_btn{
+    background: none;
+    border:none;
+    border-radius:20px;
+    font-size: 18px;
+    color:gray;
+    width: 8vw;
+    height: 5vh;
+}
+.Exp_btn:hover{
+    background: hsl(36, 24%, 92%);
+    color: black;
+}
+.profile_btn{
+    background: none;
+    border-radius: 30px;
+    height: 13%;
+    border-color: rgba(0, 0, 0, 0.1 );
+    padding: 10px;
+}
+.airbnb_ur_btn{
+    background: none;
+    border:none;
+    border-radius:20px;
+    width: 11vw;
+    height: 5vh;
+}
+.airbnb_ur_btn:hover{
+    background: hsl(36, 24%, 92%);
+}
+.btn_earth{
+    background: none;
+    border:none;
+    border-radius: 25px;
+}
+.btn_earth:hover{
+    background: hsl(36, 24%, 92%);
+}
+.profile_btn:hover{
+    box-shadow: 3px 3px 3px  hsl(40, 2%, 50%);
+}
+.top_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2px;
+}
+.search-bar{
+
+    border-radius: 50px;
+    padding:10px;
+    display: flex;
+    box-shadow:1px 1px 1px  rgb(217, 214, 214);
+    border: 1px solid rgba(0, 0, 0,0.2);
+    width: 60%;
+    height: 6vh;
+    align-items: center;
+}
+.label1{
+    font-size: 13px;
+    font-weight: 700;
+    color:hsl(0, 4%, 23%);
+}
+.inputs{
+    border: none;
+    font-size: 13px;
+    background: none;
+}
+
+.inputs:focus{
+    outline: none;
+}
+.where_to,.check,.checkout,.whoo{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    border-right: 1px solid rgba(164, 157, 157,0.4);
+}
+.whoo{
+    border-right: none;
+}
+
+.search_icon{
+    border-radius:100%;
+    background-color: red;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left:8%;
+}
+
+.where_to:hover{
+    background-color: rgb(238, 228, 228);
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+}
+.check:hover{
+    background-color: rgb(238, 228, 228);
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+}
+.checkout:hover{
+    background-color: rgb(238, 228, 228);
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+}
+.whoo:hover{
+    background-color: rgb(238, 228, 228);
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    display:flex;
+    justify-content: center;
+    gap: 28px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    width:25px;
+}
+.subtext{
+    font-size: 12px;
+}
+
+.horizontal{
+    margin-top:17px;
+    margin-left:0;
+    margin-right:0;
+    opacity: 0.2;
+}
+.image_gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imageso{
+    border-radius: 10px;
+    width: 21vw;
+}
+.images1{
+    display: flex;
+    flex-direction: column;
+}
